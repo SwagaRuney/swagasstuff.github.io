@@ -6,7 +6,6 @@ redirect_from:
   - /about/
   - /about.html
 ---
-
 If you're here, you've probably seen my videos before. If not, welcome! I’m Swagaruney, a coding and programming content creator who explores many different types of creative design. I created this site so I wouldn't have to share a ton of videos just to get my name out there. Instead, I can present all of my work in one place, making it easier to share projects and keep everything organized for others to view and follow. This platform will serve as the central hub for all my future creations and projects, which I’ll be sharing with my community
 
 A data-driven personal website
