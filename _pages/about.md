@@ -1,12 +1,12 @@
-
 ---
-permalink: /
+permalink:/
 title: "Welcome to my website!"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
+
 If you're here, you've probably seen my videos before. If not, welcome! I’m Swagaruney, a [content creator](https://www.youtube.com/@swagaruney) who explores many different types of creative design and inspirations. I created this site so I wouldn't have to share a ton of videos just to get my name out there for people. Instead, I can present all of my work in one place when i find it convenient, making it easier to share projects and keep everything organized for others to view and follow. This platform will serve as the central hub for all my future creations and projects, including my portfolio, which I’ll be sharing with my community!
 
 IF YOU SEE THIS. THIS IS PLACERHOLDER AND YOU'RE HERE EARLY XD
