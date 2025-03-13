@@ -4,6 +4,6 @@ excerpt: "FNF: Broken Strings is an upcoming mod for the popular rhythm game Fri
 collection: portfolio
 ---
 ![](/images/brokenStrings.png "Academic Pages template example")
-src="/images/images.png
+<br/><img src='/images/500x300.png'>
 
 One of my favorite mods that I am currently working on, features phenomenal music and an exceptional team. As of March 13, 2025, the date of writing this, I am pleased to note that there has been no drama, and everyone involved has demonstrated remarkable professionalism.
