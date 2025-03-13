@@ -5,4 +5,4 @@ collection: portfolio
 ---
 ![](/images/brokenStrings.png "Academic Pages template example")
 
-One of my favorite mods that I am currently working on features phenomenal music and an exceptional team. As of March 13, 2025, the date of writing this, I am pleased to note that there has been no drama, and everyone involved has demonstrated remarkable professionalism.
+One of my favorite mods that I am currently working on, features phenomenal music and an exceptional team. As of March 13, 2025, the date of writing this, I am pleased to note that there has been no drama, and everyone involved has demonstrated remarkable professionalism.
