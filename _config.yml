@@ -22,12 +22,12 @@ repository               : "https://github.com/SwagaRuney/swagasstuff.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "swagachannelpfp.jpg"
   name             : "Swag A. Runey"
   pronouns         : # example: "He/Him"  
-  bio              : "I started coding as a hobby and enjoy recreating projects I work on or ones I find interesting online. I first began with LUA, working on a fork of a game called Friday Night Funkin' called Psych Engine. From there, my motivation grew, and through this I started tackling larger projects. "
+  bio              : "I pursued coding as a hobby, recreating projects I worked on or discovered online. I initially explored LUA, contributing to a Friday Night Funkin' fork called Psych Engine, which motivated me to tackle larger projects. "
   location         : "Pennsylvania"
-  employer         : "N/A (current employer is myself)"
+  employer         : "current employer is myself "
   uri              : # https://www.youtube.com/@SwagaRuney
   email            : "swagaruney@gmail.com" 
 
