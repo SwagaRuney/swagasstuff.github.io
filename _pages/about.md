@@ -6,9 +6,9 @@ redirect_from:
   - /about/
   - /about.html
 ---
-If you're here, you've probably seen my videos before. If not, welcome! I’m Swagaruney, a coding and programming content creator who explores many different types of creative design. I created this site so I wouldn't have to share a ton of videos just to get my name out there. Instead, I can present all of my work in one place, making it easier to share projects and keep everything organized for others to view and follow. This platform will serve as the central hub for all my future creations and projects, which I’ll be sharing with my community
+If you're here, you've probably seen my videos before. If not, welcome! I’m Swagaruney, a [content creator] (youtube.com/@swagaruney) who explores many different types of creative design and inspirations. I created this site so I wouldn't have to share a ton of videos just to get my name out there for people. Instead, I can present all of my work in one place when i find it convenient, making it easier to share projects and keep everything organized for others to view and follow. This platform will serve as the central hub for all my future creations and projects, including my portfolio, which I’ll be sharing with my community!
 
-A data-driven personal website
+IF YOU SEE THIS. THIS IS PLACERHOLDER AND YOU'RE HERE EARLY XD
 ======
 Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
 
