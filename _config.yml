@@ -13,7 +13,7 @@ title                    : "SwagaRuneys stuff! (Welcome!)"
 title_separator          : "-"
 name                     : &name "SwagaRuney's Stuff"
 description              : &description "Just a website to show my work and projects!"
-url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://swagaruney.github.io/swagasstuff.github.io/"
+url                      : https://swagaruney.github.io/swagasstuff.github.io/ # the base hostname & protocol for your site e.g. "https://swagaruney.github.io/swagasstuff.github.io/"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "https://github.com/SwagaRuney/swagasstuff.github.io"
 
