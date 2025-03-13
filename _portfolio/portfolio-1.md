@@ -2,7 +2,7 @@
 title: "Broken Strings"
 excerpt: "FNF: Broken Strings is an upcoming mod for the popular rhythm game Friday Night Funkin'. Created by ThoMitDraws, this mod is inspired by various puppet and costumed character shows like Don't Hug Me I'm Scared, Sesame Street, The Muppets, and more. The mod features a series of songs where players face off against corrupted versions of beloved characters from these shows.
 <figure>
-<br/><img src='images/brokenStrings.png'>
+<br/><img src='blob/ea7c8e4c0c17bce4609f8e8ef189d07e97b5e048/images/brokenStrings.png'>
 </figure>"
 collection: portfolio
 ---
