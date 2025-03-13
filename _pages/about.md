@@ -1,3 +1,9 @@
+body {
+    background-image: url('images/brokenStrings.png');
+    background-size: cover;
+    background-position: center;
+}
+
 ---
 permalink: /
 title: "Welcome to my website!"
