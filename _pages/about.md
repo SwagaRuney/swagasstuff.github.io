@@ -21,10 +21,8 @@ After a few months, the community started realizing the potential of creating an
 **note**: This is Wheatley below.
 
 <figure>
-<br/><img src='../images/wheatley.jpg'>
+<img src='/images/wheatley.jpg'>
 </figure>
-
-<img src="/images/wheatley.jpg" width="500" height="500" />
 
 Number 3: Inciting Incident
 ======
