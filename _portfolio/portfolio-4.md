@@ -1,8 +1,8 @@
 ---
-title: "Sadistic Stories: Jaiden Animations"
-excerpt: "Sadistic Stories is a Friday Night Funkin' mod where Jaiden Animations, corrupted by the Pibby glitch, becomes the central antagonist. Players, as Boyfriend, team up with characters like TheOdd1sOut to save her, battling through an intense song called Breaking Point in a glitchy, horror-themed environment.
+title: "Battle for Corrupted Island"
+excerpt: "Battle for Corrupted Island (BFCI) is a fan-made mod for Friday Night Funkin' (FNF). It features a storyline where characters are corrupted by a glitch, similar to the Pibby corruption concept. Players engage in rhythm battles to save the corrupted characters and restore order to the island. The mod includes custom songs, unique visuals, and challenging gameplay, making it a popular addition to the FNF modding community.
 <figure>
-<br/><img src='../images/bfci.png'>
+<br/><img src='../images/bfci.jpg'>
 </figure>"
 collection: portfolio
 ---
