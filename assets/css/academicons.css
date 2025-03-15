@@ -13,12 +13,10 @@
     src:url('../fonts/academicons.eot') format('embedded-opentype'),
         url('../fonts/academicons.ttf') format('truetype'),
         url('../fonts/academicons.woff') format('woff'),
-        url('../fonts/academicons.svg') format('svg'),
-        url('../fonts/PolandCanIntoBigWritings-18wL.otf') format('opentype'),
-        url('../fonts/UpsDownsHighsAndLows-K3lZ.ttf') format('truetype');
+        url('../fonts/academicons.svg') format('svg');
 }
 .ai {
-  font-family: 'swagafont';
+  font-family: 'Academicons';
   font-weight: 400;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;

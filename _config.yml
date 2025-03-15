@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "gray"
+site_theme               : "default"
 title                    : "SwagaRuneys stuff! (Welcome!)"
 title_separator          : "-"
 name                     : &name "SwagaRuney's Stuff"
