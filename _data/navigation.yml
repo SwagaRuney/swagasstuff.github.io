@@ -5,23 +5,23 @@
 # prevent it from being included in the site.
 
 main:
-  - title: "Publications"
+  - title: "Creations"
     url: https://swagaruney.github.io/swagasstuff.github.io/publications/
 
-  - title: "Talks"
-    url: https://swagaruney.github.io/swagasstuff.github.io/talks/    
+  #- title: "Talks"
+  #  url: https://swagaruney.github.io/swagasstuff.github.io/talks/    
 
-  - title: "Teaching"
-    url: https://swagaruney.github.io/swagasstuff.github.io/teaching/    
+  - title: "Teaching-WIP"
+    url: https://swagaruney.github.io/swagasstuff.github.io/teaching/GETOUTGETOUTGETOUTGETOUTGETOUTGETOUTGETOUT    
     
   - title: "Portfolio"
     url: https://swagaruney.github.io/swagasstuff.github.io/portfolio/
         
-  - title: "Blog Posts(?)"
+  - title: "Blog"
     url: https://swagaruney.github.io/swagasstuff.github.io/year-archive/
     
   #- title: "CV"
   #  url: https://swagaruney.github.io/swagasstuff.github.io/cv/
     
-  - title: "Guide"
-    url: https://swagaruney.github.io/swagasstuff.github.io/markdown/
+  #- title: "Guide"
+  #  url: https://swagaruney.github.io/swagasstuff.github.io/markdown/
