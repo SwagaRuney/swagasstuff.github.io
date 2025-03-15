@@ -22,7 +22,9 @@ After a few months, the community started realizing the potential of creating an
 
 <figure>
 <br/><img src='../images/wheatley.jpg'>
-</figure>"
+</figure>
+
+<img src="/images/wheatley.jpg" width="500" height="500" />
 
 Number 3: Inciting Incident
 ======
