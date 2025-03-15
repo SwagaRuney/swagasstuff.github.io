@@ -569,11 +569,3 @@ border-radius: .1em;
 .ai-inverse {
   color: #fff;
 }
-
-@font-face {
-  font-family: 'swagafont';
-  src: url('assets/fonts/PolandCanIntoBigWritings-18wL.otf') format('otf'),
-       url('assets/fonts/UpsDownsHighsAndLows-K3lZ.ttf') format('ttf');
-  font-weight: normal;
-  font-style: normal;
-}
