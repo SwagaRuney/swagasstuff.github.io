@@ -7,13 +7,28 @@ redirect_from:
   - /about.html
 ---
 
-If you're here, you've probably seen my videos before. If not, welcome! I’m Swagaruney, a [content creator](https://www.youtube.com/@swagaruney) who explores many different types of creative design and inspirations. I created this site so I wouldn't have to share a ton of videos just to get my name out there for people. Instead, I can present all of my work in one place when i find it convenient, making it easier to share projects and keep everything organized for others to view and follow. This platform will serve as the central hub for all my future creations and projects, including my portfolio, which I’ll be sharing with my community!
+If you're here, you've probably seen my videos before. If not, welcome! I’m Swagaruney, a [content creator](https://www.youtube.com/@swagaruney) who explores many different types of creative design and inspirations. I created this site so I wouldn't have to share a ton of videos just to get my name out there for people. Instead, I can present all of my work in one place when i find it convenient, making it easier to share projects and keep everything organized for others to view and follow. This platform will serve as the central hub for all my future creations and projects, including my portfolio and story, which I’ll be sharing with my community!
+
+Number 1: basics
+======
+At a very young age I was given a laptop, specifically a toshiba, very bad windows 7, probably used years before me! I became interested in anything virtual, I loved making games and playing them, mostly roblox studio and minecraft were the biggest parts of my life, because I was mostly detached from sports or working out, which i now balance in my everyday life. 
+  I was stuck in a point of making random texture packs in minecraft, weird games on roblox etc, until a game came out called [*Friday Night Funkin,*](https://www.newgrounds.com/portal/view/770371) it was very new to me, being a game that you actually use your arrow keys in and all. It was rapidly increasing in popularity, a rhythm game in which you have to use four keys to hit notes as they fly up the strums.
+
+Number 2: Rising Action
+======
+After a few months, the community started realizing the potential of creating an infinite amount of modifications based on different fandoms and characters, I got interested as well. As I begun to travel to multiple websites to research using different engines that have been created, I came across [Psych Engine](https://github.com/ShadowMario/FNF-PsychEngine/releases), a higher quality engine than the old ones used before, it included a LUA JUST-IN-TIME compiler, which enhances the performance basically, so you could type in LUA and use functions that were built into the game other than just using HaxeScript, I started studying haxe in the beginning, realizing it was too much for me at the time, especially being so dull-minded at the time, I moved to the simpler and smaller "version" of haxe that would still give me some knowledge down the road, which is what I like to call LUA! After learning about an average amount of functions, and gaining a huge amount of knowledge, thinking that I knew enough, which i didn't, I made a modification based on a character from portal 2 called wheatley.
+
+**note**: This is Wheatley below.
+
+<figure>
+<br/><img src='../images/wheatley.jpg'>
+</figure>"
+
+Number 3: Inciting Incident
+======
+Like I said in Number 2, I had the issue of jumping into projects too soon, creating a modification was harder than I thought. Though, my team was pretty awesome to have, I made alot of friends, we had issues with artists, and sadly went on hiatus indefinitely until I create it personally on my own with a composer that still enjoys the mod.
 
 IF YOU SEE THIS. THIS IS PLACERHOLDER AND YOU'RE HERE EARLY XD
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
-
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
 
 Getting started
 ======
