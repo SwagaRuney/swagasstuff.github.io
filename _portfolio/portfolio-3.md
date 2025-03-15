@@ -6,6 +6,10 @@ excerpt: "Sadistic Stories is a Friday Night Funkin' mod where Jaiden Animations
 </figure>"
 collection: portfolio
 ---
+
+> [!NOTE]  
+> Highlights information that users should take into account, even when skimming.
+
 [!WARNING]
 assuming that this mod has came to a hiatus, due to the Jaiden Animations week being the only song that i have spotted online, or anywhere, and nothing has been brought up from Zaydash_Animates since the first release of this song. . .
 
