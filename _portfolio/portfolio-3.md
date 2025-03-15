@@ -2,15 +2,10 @@
 title: "Sadistic Stories: Jaiden Animations"
 excerpt: "Sadistic Stories is a Friday Night Funkin' mod where Jaiden Animations, corrupted by the Pibby glitch, becomes the central antagonist. Players, as Boyfriend, team up with characters like TheOdd1sOut to save her, battling through an intense song called Breaking Point in a glitchy, horror-themed environment.
 <figure>
-<br/><img src='../images/horrorTaleIH.png'>
+<br/><img src='../images/pibbyjaiden.png'>
 </figure>"
 collection: portfolio
 ---
-
-> [!NOTE]  
-> Highlights information that users should take into account, even when skimming.
-
-[!WARNING]
 assuming that this mod has came to a hiatus, due to the Jaiden Animations week being the only song that i have spotted online, or anywhere, and nothing has been brought up from Zaydash_Animates since the first release of this song. . .
 
 one of my first mods that reached 1 million views on youtube or more, very proud of how the code turned out with this one! I am still actively maintaining it on my youtube as well... (second video) I'm happy that i was able to help out on this and make it a reality while still having fun myself and to add my own adaptations and ideas mid production!
