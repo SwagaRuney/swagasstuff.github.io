@@ -10,4 +10,6 @@ collection: portfolio
 
 One of my favorite mods that I am currently working on, features phenomenal music and an exceptional team. As of March 13, 2025, the date of me writing this, I am pleased to note that there has been no drama, and everyone involved has demonstrated remarkable humor and professionalism.
 <img src="../images/brokenStringsex.png" width="500" height="300" />
-<img src="https://tenor.com/view/ernie-fnf-broken-strings-sesame-street-gif-5488901573442296395" width="300" height="300" />
+<br/><img src='../images/brokenStrings.png'>
+
+<div class="tenor-gif-embed" data-postid="5488901573442296395" data-share-method="host" data-aspect-ratio="1" data-width="100%"><a href="https://tenor.com/view/ernie-fnf-broken-strings-sesame-street-gif-5488901573442296395">Ernie Fnf GIF</a>from <a href="https://tenor.com/search/ernie-gifs">Ernie GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
