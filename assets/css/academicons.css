@@ -13,10 +13,12 @@
     src:url('../fonts/academicons.eot') format('embedded-opentype'),
         url('../fonts/academicons.ttf') format('truetype'),
         url('../fonts/academicons.woff') format('woff'),
-        url('../fonts/academicons.svg') format('svg');
+        url('../fonts/academicons.svg') format('svg'),
+        url('../fonts/PolandCanIntoBigWritings-18wL.otf') format('opentype'),
+        url('../fonts/UpsDownsHighsAndLows-K3lZ.ttf') format('truetype');
 }
 .ai {
-  font-family: 'Academicons';
+  font-family: 'PolandCanIntoBigWritings-18wL';
   font-weight: 400;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
@@ -568,13 +570,4 @@ border-radius: .1em;
 }
 .ai-inverse {
   color: #fff;
-}
-
-@font-face {
-  font-family: 'swagafont';
-  src: url('assets/fonts/PolandCanIntoBigWritings-18wL.otf') format('opentype'),
-       url('assets/fonts/UpsDownsHighsAndLows-K3lZ.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
 }
