@@ -9,5 +9,9 @@ collection: portfolio
 > **Note**: Most of my work was replaced for this, but was redesigned with my supervision!
 
 One of my more popularized mods, at first i honestly didnt expect this to blow up like it did.The mod team had ups and downs, but over-all it was fun to be a part of! I did mostly concept animation and coding for all the stages, I also did concepts for the stages but i'm honestly unaware if they were revised or kept ;-; I'm assuming they were kept due to an event still happening to the bopping characters during Slasher's Feast.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NYXzUBYtbus?si=XTp2e6vMVqpPOJjD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 <img src="https://cdn.discordapp.com/attachments/1350377631492603935/1350377644436230255/2jo4g3Z.png?ex=67d684af&is=67d5332f&hm=057f322c7cb82b2ad84b493934d96f1998dba8ed0678e04009a5e087dffce0de&" width="500" height="300" />
+
 <img src="https://cdn.discordapp.com/attachments/1350377631492603935/1350392954472104006/Jw84kIF.gif?ex=67d692f1&is=67d54171&hm=3704e267bba7e1a452e8bb92a41adc28952b94ab03328318cef6c120e39ae3ea&" width="500" height="300" />
