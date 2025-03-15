@@ -6,6 +6,8 @@ excerpt: "FNF: Broken Strings is an upcoming mod for the popular rhythm game Fri
 </figure>"
 collection: portfolio
 ---
-> **Note**: I am yet to receive any large work for Broken Strings, but hopefully you'll see my work in the finished product. - 
+> **Note**: I am yet to receive any large work for Broken Strings, but hopefully you'll see my work in the finished product.
+
 One of my favorite mods that I am currently working on, features phenomenal music and an exceptional team. As of March 13, 2025, the date of me writing this, I am pleased to note that there has been no drama, and everyone involved has demonstrated remarkable humor and professionalism.
-<img src="https://cdn.discordapp.com/attachments/1350377631492603935/1350378486463729807/13xR9fb.png?ex=67d68577&is=67d533f7&hm=4c4da2cf0658f167840e541c96861442657916696b5b9e4415ef1d1b082c59c4&" width="500" height="300" />
+<img src="../images/brokenStringsex.png" width="500" height="300" />
+<img src="https://tenor.com/view/ernie-fnf-broken-strings-sesame-street-gif-5488901573442296395" width="300" height="300" />
