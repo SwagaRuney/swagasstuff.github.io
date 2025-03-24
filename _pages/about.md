@@ -9,7 +9,7 @@ redirect_from:
 
 If you're here, you've probably seen my videos before. If not, welcome! I’m Swagaruney, a [content creator](https://www.youtube.com/@swagaruney) who explores many different types of creative design and inspirations. I created this site so I wouldn't have to share a ton of videos just to get my name out there for people. Instead, I can present all of my work in one place when i find it convenient, making it easier to share projects and keep everything organized for others to view and follow. This platform will serve as the central hub for all my future creations and projects, including my portfolio and story, which I’ll be sharing with my community!
 
-Number 1: basics
+Number 1: Basics
 ======
 At a very young age I was given a laptop, specifically a toshiba, very bad windows 7, probably used years before me! I became interested in anything virtual, I loved making games and playing them, mostly roblox studio and minecraft were the biggest parts of my life, because I was mostly detached from sports or working out, which i now balance in my everyday life. 
   I was stuck in a point of making random texture packs in minecraft, weird games on roblox etc, until a game came out called [*Friday Night Funkin,*](https://www.newgrounds.com/portal/view/770371) it was very new to me, being a game that you actually use your arrow keys in and all. It was rapidly increasing in popularity, a rhythm game in which you have to use four keys to hit notes as they fly up the strums.
