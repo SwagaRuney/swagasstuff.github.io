@@ -12,8 +12,8 @@ A mod that i animated on, more of a technical demo than a full fledged mod, whic
 
 however, im happy with how it turned out, i really do like it!
 
-<iframe width="560" height="315" src="https://youtu.be/EfkXzA9mvt4?si=nh1Rm1p806a7EZvU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=EfkXzA9mvt4&t=5s&ab_channel=ReaperGaming" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<iframe width="560" height="315" src="https://youtu.be/oozxauMwuIw?si=P07F3uGI34O0DRUv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=CBaiz5zp-C4&ab_channel=SlimyGames" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<iframe width="560" height="315" src="https://youtu.be/CBaiz5zp-C4?si=rdVjk9uTsnvjr_OX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=oozxauMwuIw&t=40s&ab_channel=T-Bar" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
