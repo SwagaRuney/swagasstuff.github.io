@@ -8,7 +8,7 @@ collection: portfolio
 ---
 > **Note**: Mod seems to be going pretty slow, but overall still alive other than leaking problems...
 
-another  mod that I work on that reached 1 million views on youtube or more, the coding definitely could have been better on my part, but I joined when I was an amatuer, so I couldn't expect worse.
+another mod that I work on that reached 1 million views on youtube or more, the coding definitely could have been better on my part, but I joined when I was an amatuer, so I couldn't expect worse.
 
 Overall, this project was one of the first bigger projects I joined, so im proud of where I am with it today.
 
