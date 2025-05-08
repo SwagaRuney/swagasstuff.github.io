@@ -8,9 +8,9 @@ collection: portfolio
 ---
 > **Note**: one of my favorite mods, it also is with one of my best friends, so it makes me happy to be working on it!
 
-A mod that i animated on, more of a technical demo than a full fledged mod, which i like!
+A mod that i animated on and provided advice for, im happy with how it turned out, more of a technical demo than a full fledged mod at the moment!
 
-however, im happy with how it turned out, i really do like it!
+
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/oozxauMwuIw?si=b2wSPLAFpNTvAcC5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
