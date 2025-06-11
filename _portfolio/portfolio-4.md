@@ -6,11 +6,13 @@ excerpt: "Battle for Corrupted Island (BFCI) is a fan-made mod for Friday Night 
 </figure>"
 collection: portfolio
 ---
-> **Note**: Mod seems to be going pretty slow, but overall still alive other than leaking problems...
+> **Note**: Mod is GETTING A REMAKE! I am apart of this remake, be sure to watch zaydashes new tech-demo! (on the very top of videos for easy access!)
 
 another mod that I work on that reached 1 million views on youtube or more, the coding definitely could have been better on my part, but I joined when I was an amatuer, so I couldn't expect worse.
 
-Overall, this project was one of the first bigger projects I joined, so im proud of where I am with it today.
+Overall, this project was one of the first bigger projects I joined, so im proud of where I am with it today, especially with the 3.5 coming out and all!
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KrFH2RMvonU?si=_xWC3MmVsaT3minc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/zhjKXGSdvfg?si=hSGb3i99jNbYY4Fr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
