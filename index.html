@@ -2,11 +2,12 @@
 <html>
 <head>
     <title>SwagaRuney's Stuff! - Home</title>
-
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
     <style>
         @font-face {
             font-family: 'Swag';
             src: url('fonts/swag.ttf') format('truetype');
+            
         }
 
         @keyframes moveBG {
@@ -134,7 +135,7 @@
 
         // Restore saved volume if you use localStorage
         const savedVolume = localStorage.getItem("savedVolume");
-        player.volume = savedVolume !== null ? savedVolume : 1;
+        player.volume = savedVolume !== null ? savedVolume : 0.15;
 
         player.play().catch(() => {});
         
