@@ -121,21 +121,31 @@
     ">
 
     <!-- AUTOPLAY + UNMUTE -->
-    <script>
-    window.addEventListener("load", () => {
-        const player = document.getElementById("musicPlayer");
+<script>
+    const player = document.getElementById("musicPlayer");
 
-        player.play().then(() => {
-            setTimeout(() => player.muted = false, 200);
-        }).catch(() => {
-            setTimeout(() => {
-                player.play().then(() => {
-                    setTimeout(() => player.muted = false, 200);
-                });
-            }, 300);
-        });
-    });
-    </script>
+    // Try to autoplay silently (allowed by all browsers)
+    player.muted = true;
+    player.play().catch(() => {});
+
+    // When the user interacts, unmute + play
+    function enableAudio() {
+        player.muted = false;
+
+        // Restore saved volume if you use localStorage
+        const savedVolume = localStorage.getItem("savedVolume");
+        player.volume = savedVolume !== null ? savedVolume : 1;
+
+        player.play().catch(() => {});
+        
+        // Remove listeners so it only triggers once
+        window.removeEventListener("click", enableAudio);
+        window.removeEventListener("keydown", enableAudio);
+    }
+
+    window.addEventListener("click", enableAudio);
+    window.addEventListener("keydown", enableAudio);
+</script>
 
 <script>
 function closeWipPopup() {
