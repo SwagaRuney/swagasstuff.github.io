@@ -7,7 +7,6 @@
         @font-face {
             font-family: 'Swag';
             src: url('fonts/swag.ttf') format('truetype');
-            
         }
 
         @keyframes moveBG {
@@ -49,12 +48,12 @@
             width: 100vw;
             height: 100vh;
             z-index: 0;
-            pointer-events: none;
+            pointer-events: none; /* keep this if you don't want it blocking clicks */
         }
+
         #wipPopup {
             display: none; /* Prevents flash before JS runs */
         }
-
     </style>
 </head>
 
@@ -69,7 +68,7 @@
         height: 100vh;
         background: rgba(0,0,0,0.85);
         color: white;
-        display: none; /* Hidden by default */
+        display: none;
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -98,7 +97,7 @@
     </div>
 
     <!-- MUSIC PLAYER -->
-    <audio id="musicPlayer" autoplay loop muted style="
+    <audio id="musicPlayer" loop muted style="
         position: fixed;
         top: 10px;
         left: 10px;
@@ -121,147 +120,9 @@
         accent-color: #852929;
     ">
 
-    <!-- AUTOPLAY + UNMUTE -->
-<script>
-    const player = document.getElementById("musicPlayer");
-
-    // Try to autoplay silently (allowed by all browsers)
-    player.muted = true;
-    player.play().catch(() => {});
-
-    // When the user interacts, unmute + play
-    function enableAudio() {
-        player.muted = false;
-
-        // Restore saved volume if you use localStorage
-        const savedVolume = localStorage.getItem("savedVolume");
-        player.volume = savedVolume !== null ? savedVolume : 0.15;
-
-        player.play().catch(() => {});
-        
-        // Remove listeners so it only triggers once
-        window.removeEventListener("click", enableAudio);
-        window.removeEventListener("keydown", enableAudio);
-    }
-
-    window.addEventListener("click", enableAudio);
-    window.addEventListener("keydown", enableAudio);
-</script>
-
-<script>
-function closeWipPopup() {
-    const popup = document.getElementById("wipPopup");
-    popup.style.opacity = "0";
-
-    setTimeout(() => {
-        popup.style.display = "none";
-        localStorage.setItem("wipAccepted", "true");
-    }, 800);
-}
-
-// Show popup ONLY if not accepted
-window.addEventListener("DOMContentLoaded", () => {
-    const popup = document.getElementById("wipPopup");
-
-    if (localStorage.getItem("wipAccepted") !== "true") {
-        popup.style.display = "flex";   // show it
-        popup.style.opacity = "1";      // ensure visible
-    }
-});
-</script>
     <!-- DRAG & DROP ZONE -->
     <div id="dropZone"></div>
 
-    <!-- DRAG & DROP SCRIPT -->
-    <script>
-        const player = document.getElementById("musicPlayer");
-        const dropZone = document.getElementById("dropZone");
-
-        dropZone.addEventListener("dragover", (e) => {
-            e.preventDefault();
-        });
-
-        dropZone.addEventListener("drop", (e) => {
-            e.preventDefault();
-
-            const file = e.dataTransfer.files[0];
-            if (!file) return;
-
-            if (!file.type.startsWith("audio/")) {
-                alert("Please drop an audio file.");
-                return;
-            }
-
-            const url = URL.createObjectURL(file);
-            player.src = url;
-            player.play();
-        });
-    </script>
-
-    <!-- VOLUME SLIDER SCRIPT -->
-    <script>
-    // One shared player reference for ALL scripts
-    const player = document.getElementById("musicPlayer");
-
-    // AUTOPLAY + UNMUTE
-    window.addEventListener("load", () => {
-        player.play().then(() => {
-            setTimeout(() => player.muted = false, 200);
-        }).catch(() => {
-            setTimeout(() => {
-                player.play().then(() => {
-                    setTimeout(() => player.muted = false, 200);
-                });
-            }, 300);
-        });
-    });
-</script>
-
-<!-- DRAG & DROP SCRIPT -->
-<script>
-    const dropZone = document.getElementById("dropZone");
-
-    dropZone.addEventListener("dragover", (e) => {
-        e.preventDefault();
-    });
-
-    dropZone.addEventListener("drop", (e) => {
-        e.preventDefault();
-
-        const file = e.dataTransfer.files[0];
-        if (!file) return;
-
-        if (!file.type.startsWith("audio/")) {
-            alert("Please drop an audio file.");
-            return;
-        }
-
-        const url = URL.createObjectURL(file);
-        player.src = url;
-        player.play();
-    });
-</script>
-
-<!-- VOLUME SLIDER SCRIPT -->
-<script>
-    const volumeSlider = document.getElementById("volumeSlider");
-
-    // Load saved volume (if exists)
-    const savedVolume = localStorage.getItem("savedVolume");
-    if (savedVolume !== null) {
-        player.volume = savedVolume;
-        volumeSlider.value = savedVolume;
-    } else {
-        player.volume = 0.2;
-        volumeSlider.value = 0.2;
-    }
-
-    // Save + apply volume when slider moves
-    volumeSlider.addEventListener("input", () => {
-        player.volume = volumeSlider.value;
-        localStorage.setItem("savedVolume", volumeSlider.value);
-    });
-</script>
     <!-- USER DISPLAY -->
     <div id="userDisplay"></div>
 
@@ -271,39 +132,6 @@ window.addEventListener("DOMContentLoaded", () => {
     <button id="confirmBtn" onclick="greetUser(document.getElementById('username').value)">
         Confirm
     </button>
-
-    <script>
-        function greetUser(name) {
-            if (!name) {
-                alert("Please enter your name.");
-                return;
-            }
-            localStorage.setItem('username', name);
-            updateUserDisplay(name);
-            document.getElementById('confirmBtn').style.display = 'none';
-            document.getElementById('username').style.display = 'none';
-        }
-
-        function loadUsername() {
-            const savedName = localStorage.getItem('username');
-
-            if (savedName) {
-                document.getElementById('username').value = savedName;
-                updateUserDisplay(savedName);
-                document.getElementById('confirmBtn').style.display = 'none';
-                document.getElementById('username').style.display = 'none';
-            } else {
-                updateUserDisplay("No User");
-            }
-        }
-
-        function updateUserDisplay(name) {
-            document.getElementById('userDisplay').textContent = "User: " + name;
-            document.getElementById('userDisplay').style.display = 'block';
-        }
-
-        window.onload = loadUsername;
-    </script>
 
     <!-- DEV BUTTON -->
     <button id="devBtn" onclick="clearAllData()" style="
@@ -320,10 +148,136 @@ window.addEventListener("DOMContentLoaded", () => {
     ">DEV: Clear All</button>
 
     <script>
+    // =========================
+    // WIP POPUP
+    // =========================
+    function closeWipPopup() {
+        const popup = document.getElementById("wipPopup");
+        popup.style.opacity = "0";
+
+        setTimeout(() => {
+            popup.style.display = "none";
+            localStorage.setItem("wipAccepted", "true");
+        }, 800);
+    }
+
+    window.addEventListener("DOMContentLoaded", () => {
+        const popup = document.getElementById("wipPopup");
+        if (localStorage.getItem("wipAccepted") !== "true") {
+            popup.style.display = "flex";
+            popup.style.opacity = "1";
+        }
+    });
+
+    // =========================
+    // AUDIO + VOLUME + DRAG & DROP
+    // =========================
+    const player = document.getElementById("musicPlayer");
+    const volumeSlider = document.getElementById("volumeSlider");
+    const dropZone = document.getElementById("dropZone");
+
+    // Load saved volume
+    let savedVolume = localStorage.getItem("savedVolume");
+    if (savedVolume !== null) {
+        savedVolume = parseFloat(savedVolume);
+        player.volume = savedVolume;
+        volumeSlider.value = savedVolume;
+    } else {
+        player.volume = 0.2;
+        volumeSlider.value = 0.2;
+    }
+
+    // Start muted, not playing
+    player.muted = true;
+
+    // Enable audio ONLY after user interaction AND volume > 0
+    function enableAudio() {
+        if (player.volume > 0) {
+            player.muted = false;
+            player.play().catch(() => {});
+        }
+        window.removeEventListener("click", enableAudio);
+        window.removeEventListener("keydown", enableAudio);
+    }
+
+    window.addEventListener("click", enableAudio);
+    window.addEventListener("keydown", enableAudio);
+
+    // Volume slider logic
+    volumeSlider.addEventListener("input", () => {
+        const vol = parseFloat(volumeSlider.value);
+        player.volume = vol;
+        localStorage.setItem("savedVolume", vol);
+
+        if (vol === 0) {
+            player.muted = true;
+        } else if (!player.muted) {
+            player.play().catch(() => {});
+        }
+    });
+
+    // Drag & drop audio
+    dropZone.addEventListener("dragover", (e) => e.preventDefault());
+
+    dropZone.addEventListener("drop", (e) => {
+        e.preventDefault();
+        const file = e.dataTransfer.files[0];
+        if (!file) return;
+
+        if (!file.type.startsWith("audio/")) {
+            alert("Please drop an audio file.");
+            return;
+        }
+
+        const url = URL.createObjectURL(file);
+        player.src = url;
+
+        if (!player.muted && player.volume > 0) {
+            player.play().catch(() => {});
+        }
+    });
+
+    // =========================
+    // USERNAME + DISPLAY
+    // =========================
+    function greetUser(name) {
+        if (!name) {
+            alert("Please enter your name.");
+            return;
+        }
+        localStorage.setItem('username', name);
+        updateUserDisplay(name);
+        document.getElementById('confirmBtn').style.display = 'none';
+        document.getElementById('username').style.display = 'none';
+    }
+
+    function loadUsername() {
+        const savedName = localStorage.getItem('username');
+        if (savedName) {
+            document.getElementById('username').value = savedName;
+            updateUserDisplay(savedName);
+            document.getElementById('confirmBtn').style.display = 'none';
+            document.getElementById('username').style.display = 'none';
+        } else {
+            updateUserDisplay("No User");
+        }
+    }
+
+    function updateUserDisplay(name) {
+        const userDisplay = document.getElementById('userDisplay');
+        userDisplay.textContent = "User: " + name;
+        userDisplay.style.display = 'block';
+    }
+
+    window.onload = loadUsername;
+
+    // =========================
+    // DEV CLEAR
+    // =========================
     function clearAllData() {
         if (confirm('Clear all data? This cannot be undone.')) {
             localStorage.clear();
-            localStorage.removeItem("wipAccepted"); // reset WIP popup
+            localStorage.removeItem("wipAccepted");
 
             document.getElementById('username').value = '';
             document.getElementById('username').style.display = 'inline';
@@ -335,7 +289,6 @@ window.addEventListener("DOMContentLoaded", () => {
         }
     }
     </script>
-
 
 </body>
 </html>
